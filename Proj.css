@@ -1,0 +1,39 @@
+body {
+  background-image: url(bla.jpg);
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+h1 {
+  color: white;
+  font-family: Helvetica;
+  text-align: left;
+  font-size: 20px;
+}
+ h2{
+   color: white;
+   font-family: Arial;
+   text-align: left;
+   font-size: 20px;
+  }
+  h3{
+    color: white;
+    font-family: monospace;
+    text-align: left;
+    font-size: 25px;
+  }
+ h4 {
+   color: white;
+   font-family: monospace;
+   max-width: 150px;
+   font-size: 15px;
+
+  }
+h5 {
+  color: white;
+  font-family: monospace;
+  text-align: left;
+  max-width: 150px;
+  font-size: 15px;
+
+}
