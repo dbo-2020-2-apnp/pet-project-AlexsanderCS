@@ -4,36 +4,47 @@ body {
   background-size: 100%;
 }
 
+
 h1 {
   color: white;
   font-family: Helvetica;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+h2 {
+  color: white;
+  font-family: Arial;
   text-align: left;
   font-size: 20px;
 }
- h2{
-   color: white;
-   font-family: Arial;
-   text-align: left;
-   font-size: 20px;
-  }
-  h3{
-    color: white;
-    font-family: monospace;
-    text-align: left;
-    font-size: 25px;
-  }
- h4 {
-   color: white;
-   font-family: monospace;
-   max-width: 150px;
-   font-size: 15px;
 
-  }
+h3 {
+  color: white;
+  font-family: monospace;
+  text-align: left;
+  font-size: 35px;
+}
+
+h4 {
+  color: white;
+  font-family: monospace;
+  max-width: 150px;
+  font-size: 15px;
+  display: inline-block;
+  padding: 0px;
+  float: left;
+}
+
 h5 {
   color: white;
   font-family: monospace;
   text-align: left;
   max-width: 150px;
   font-size: 15px;
+}
 
+h6 {
+  display: inline-block;
 }

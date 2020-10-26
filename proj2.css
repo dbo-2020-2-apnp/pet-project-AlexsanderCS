@@ -1,0 +1,62 @@
+body {
+  background-image: url(bla.jpg);
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+h1 {
+  color: white;
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+  background-color: rgb(20, 21, 22);
+  border: 1px solid #333;
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  color: white;
+  font-family: Arial;
+  text-align: left;
+  font-size: 20px;
+}
+
+h3 {
+  color: white;
+  font-family: monospace;
+  text-align: left;
+  font-size: 35px;
+}
+
+.thumb {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #333;
+}
+
+.img {
+  display: inline-block;
+}
+
+.txt {
+  color: white;
+  font-family: arial;
+  max-width: 150px;
+  font-size: 15px;
+  padding: 0;
+  margin: 15%;
+  background-color: rgb(20, 21, 22);
+  border: 1px solid #333;
+}
+
+h6 {
+  color: white;
+  font-family: Arial;
+  max-width: 150px;
+  font-size: 15px;
+  background-color: rgb(20, 21, 22);
+  float: left;
+  border: 1px solid #333;
+}
