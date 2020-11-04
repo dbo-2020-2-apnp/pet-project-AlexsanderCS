@@ -76,7 +76,7 @@ h6 {
 .bto {
   background: rgb(9, 228, 162);
   color: rgb(0, 0, 0);
-  box-shadow: 3px 3px 3px rgb(5, 224, 122)0, 86, 86);
+  box-shadow: 3px 3px 3px rgb(5, 224, 122)0, 86, 86;
 }
 
 .bto:hover {
