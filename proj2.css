@@ -18,15 +18,21 @@ h1 {
 
 h2 {
   color: white;
-  font-family: Arial;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: left;
-  font-size: 20px;
+  font-size: 25px;
+  background-color: rgb(20, 21, 22);
+  border: 1px solid #333;
+  max-width: 750px;
 }
 
 h3 {
   color: white;
-  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: left;
+  background-color: rgb(20, 21, 22);
+  border: 1px solid #333;
+  max-width: 490px;
   font-size: 35px;
 }
 
@@ -34,6 +40,7 @@ h3 {
   width: 200px;
   height: 200px;
   border: 1px solid #333;
+  background-size: 100px;
 }
 
 .img {
@@ -43,7 +50,7 @@ h3 {
 .txt {
   color: white;
   font-family: arial;
-  max-width: 150px;
+  max-width: 200px;
   font-size: 15px;
   padding: 0;
   margin: 15%;
