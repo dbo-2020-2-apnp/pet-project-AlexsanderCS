@@ -1,0 +1,64 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(img/flor.jpg);
+  background-size: 300%;
+
+}
+
+ul {
+  list-style: none;
+}
+
+input[type="checkbox"] {
+  display: none;
+  position: relative;
+}
+
+nav {
+  background-color: rgba(16, 16, 16, .5);
+  width: 350px;
+  height: 100%;
+  left: -350px;
+  position: fixed;
+  transition: all .5s;
+  top: 0;
+}
+
+input[type="checkbox"]:checked~nav {
+  transform: translateX(350px);
+}
+
+ul {
+  top: 70px;
+  position: absolute;
+  width: 100%;
+}
+
+a {
+  display: block;
+  padding: 20px 5px;
+  color: white;
+}
+
+a:hover {
+  background-color: rgb(176, 224, 230);
+  color: black;
+}
+
+label {
+  padding: 15px;
+  position: fixed;
+  z-index: 1;
+  padding: 3px;
+  margin: 3px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}

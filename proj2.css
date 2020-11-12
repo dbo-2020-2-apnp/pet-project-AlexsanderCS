@@ -1,14 +1,15 @@
 body {
-  background-image: url(bla.jpg);
+  background-image: url(img/flor.jpg);
   background-repeat: repeat;
   background-size: 100%;
+
 }
 
 h1 {
   color: white;
   font-family: Helvetica;
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
   padding: 5px;
   background-color: rgb(20, 21, 22);
   border: 1px solid #333;
@@ -39,7 +40,7 @@ h3 {
 .thumb {
   width: 200px;
   height: 200px;
-  border: 1px solid #333;
+  border: 3px solid rgb(3, 3, 3);
   background-size: 100px;
 }
 
@@ -97,3 +98,5 @@ h6 {
   top: 5px;
   box-shadow: none;
 }
+
+
