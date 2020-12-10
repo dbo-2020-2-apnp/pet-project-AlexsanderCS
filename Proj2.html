@@ -10,6 +10,28 @@
   <link rel="stylesheet" href="projm.css">
   <link rel="shortcut icon" type="image/x-png" href="img/twi.png" />
 
+
+<style>
+ html{
+   scroll-behavior: smooth;
+ }
+
+ #Ttop{
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   height: 40px;
+   width: 40px;
+   color:aliceblue;
+   background: #333333;
+   border: none;
+   border-radius: 50vh;
+   display: none;
+  }
+
+</style>
+
+
 <body>
   <input type="checkbox" id="chec">
   <label for="chec">
@@ -22,6 +44,7 @@
       <li class=""><a href="#FDT"> • FERRAMENTAS DE TRANSMISSÕES</a></li>
       <li class=""><a href="#FPE"> • FERRAMENTAS DE EDIÇÕES</a></li>
       <li class=""><a href="plat.html"> • PLATAFORMAS DE TRANSMISSÕES</a></li>
+      <li class=""><a href="Tip.html"> • DICAS DE LIVESTREAM</a></li>
     </ul>
   </nav>
 
@@ -61,6 +84,7 @@
           <h7><a href="https://obsproject.com" target="_blank" class="botao bto">BAIXAR AGORA</a></h7>
       </div>
       <div class="txt">
+        <center>
         <p>• Open Broadcaster
         <p class="txt">
         <h6>Software grátis e open source para gravação e transmissão ao vivo. O código-fonte está disponível para
@@ -78,6 +102,7 @@
           </h7>
       </div>
       <div class="txt">
+        <center>
         <p>• Beta Twitch Studio
         <p class="txt">
         <h6>Nosso software de transmissão gratuito foi desenvolvido do zero para novos streamers que querem um
@@ -99,6 +124,7 @@
               AGORA</a></h7>
       </div>
       <div class="txt">
+        <center>
         <p>• Lightstream Studio
         <p class="txt">
         <h6>Transmissões ao vivo profissionais pelo seu navegador. Crie seu layout ideal. Traga convidados à
@@ -151,6 +177,7 @@
           </h7>
       </div>
       <div class="txt">
+        <center>
         <p>• XSplit Broadcaster
         <p class="txt">
         <h6>O XSplit é um conjunto de aplicativos gratuito, altamente personalizável e poderoso, usado na
@@ -311,13 +338,26 @@
     </div>
   </div>
 
-  <!-- futuros implementos:
-  1. Vídeos tutoriais
-  2. Plataformas de livestream
-  3. Influencers
-  4. Dicas de como começar
-  5. Designer
-  6. Deixar o menu visualmente mais atraente -->
+<button onclick="backToTop()" id="Ttop">Topo</button>
+<script>
+ window.onscroll = function(){
+   scroll();
+ }
+
+function scroll(){
+  let bt = document.getElementById("Ttop");
+  if(document.documentElement.scrollTop > 50) {
+    Ttop.style.display = "block"
+  }else{
+    Ttop.style.display = "block"
+  }
+
+}
+
+  function backToTop() {
+    document.documentElement.scrollTop = 0;
+  }
+</script>
 </body>
 
 </html>
