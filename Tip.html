@@ -9,24 +9,24 @@
   <link rel="stylesheet" href="tip.css">
   <link rel="shortcut icon" type="image/x-png" href="img/twi.png" />
 
-<style>
-  html {
-    scroll-behavior: smooth;
-  }
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
 
-  #Ttop {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    height: 40px;
-    width: 40px;
-    color: aliceblue;
-    background: #333333;
-    border: none;
-    border-radius: 50vh;
-    display: none;
-  }
-</style>
+    #Ttop {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      height: 40px;
+      width: 40px;
+      color: aliceblue;
+      background: #333333;
+      border: none;
+      border-radius: 50vh;
+      display: none;
+    }
+  </style>
 
   <style type="text/css">
     body {
@@ -358,26 +358,26 @@
         </div>
 
 
-<button onclick="backToTop()" id="Ttop">Topo</button>
-<script>
-  window.onscroll = function () {
-    scroll();
-  }
+        <button onclick="backToTop()" id="Ttop">Topo</button>
+        <script>
+          window.onscroll = function () {
+            scroll();
+          }
 
-  function scroll() {
-    let bt = document.getElementById("Ttop");
-    if (document.documentElement.scrollTop > 50) {
-      Ttop.style.display = "block"
-    } else {
-      Ttop.style.display = "block"
-    }
+          function scroll() {
+            let bt = document.getElementById("Ttop");
+            if (document.documentElement.scrollTop > 50) {
+              Ttop.style.display = "block"
+            } else {
+              Ttop.style.display = "block"
+            }
 
-  }
+          }
 
-  function backToTop() {
-    document.documentElement.scrollTop = 0;
-  }
-</script>
+          function backToTop() {
+            document.documentElement.scrollTop = 0;
+          }
+        </script>
 
 </body>
 
