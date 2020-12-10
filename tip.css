@@ -1,0 +1,121 @@
+h8 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  padding: 5px;
+  background-color: rgb(20, 21, 22);
+  border: 4px solid #333;
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 800px;
+  font-size: 25px;
+  background-color: rgb(20, 21, 22);
+  float: center;
+  border: 5px solid #333;
+  border-radius: 10px;
+  text-align: left;
+}
+
+h2 {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 500px;
+  font-size: 25px;
+  background-color: rgb(20, 21, 22);
+  float: center;
+  border: 5px solid #333;
+  border-radius: 10px;
+  text-align: left;
+}
+
+h3 {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 400px;
+  font-size: 25px;
+  background-color: rgb(20, 21, 22);
+  float: center;
+  border: 5px solid #333;
+  border-radius: 10px;
+  text-align: left;
+  max-width: 800px;
+}
+
+.img1 {
+  padding: 50px;
+  position: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.img2 {
+  border: 3px solid rgb(3, 3, 3);
+  background-size: 100px;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+input[type="checkbox"] {
+  display: none;
+  position: relative;
+}
+
+nav {
+  background-color: rgba(16, 16, 16, .5);
+  width: 350px;
+  height: 100%;
+  left: -350px;
+  position: fixed;
+  transition: all .5s;
+  top: 0;
+}
+
+input[type="checkbox"]:checked~nav {
+  transform: translateX(350px);
+}
+
+ul {
+  top: 70px;
+  position: absolute;
+  width: 100%;
+}
+
+a {
+  display: block;
+  padding: 20px 5px;
+  color: white;
+}
+
+a:hover {
+  background-color: rgb(176, 224, 230);
+  color: black;
+}
+
+label {
+  padding: 15px;
+  position: fixed;
+  z-index: 1;
+  padding: 3px;
+  margin: 3px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
